@@ -1,7 +1,18 @@
 import os
+import sys
 
 # ROOT DATA FOLDER
-DATA_FOLDER = "./data"
+# Patched in-place to fix Pressingly/foss-bundle PR #9 regression: wrapper
+# spawns Python with cwd at read-only resourcesPath, so upstream
+# `DATA_FOLDER = "./data"` crashes at import. Selects a per-user writable
+# directory per OS, matching Electron `app.getPath("userData")` intent.
+_APP = "Open Notebook"
+if sys.platform == "darwin":
+    DATA_FOLDER = os.path.expanduser(f"~/Library/Application Support/{_APP}/data")
+elif sys.platform == "win32":
+    DATA_FOLDER = os.path.join(os.environ.get("LOCALAPPDATA", os.path.expanduser("~")), _APP, "data")
+else:
+    DATA_FOLDER = os.path.expanduser(f"~/.local/share/{_APP}/data")
 
 # LANGGRAPH CHECKPOINT FILE
 sqlite_folder = f"{DATA_FOLDER}/sqlite-db"
