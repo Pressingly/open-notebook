@@ -756,7 +756,6 @@ export const bnIN = {
     latestVersion: "সর্বশেষ সংস্করণ",
     status: "অবস্থা",
     updateAvailable: "সংস্করণ {version} উপলব্ধ",
-    updateAvailableDesc: "Open Notebook এর একটি নতুন সংস্করণ উপলব্ধ।",
     upToDate: "আপ টু ডেট",
     unknown: "অজানা",
     viewOnGithub: "GitHub এ দেখুন",

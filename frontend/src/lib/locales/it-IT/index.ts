@@ -755,7 +755,6 @@ export const itIT = {
     latestVersion: "Ultima versione",
     status: "Stato",
     updateAvailable: "Versione {version} disponibile",
-    updateAvailableDesc: "È disponibile una nuova versione di Open Notebook.",
     upToDate: "Aggiornato",
     unknown: "Sconosciuto",
     viewOnGithub: "Visualizza su GitHub",

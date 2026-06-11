@@ -755,7 +755,6 @@ export const zhCN = {
     latestVersion: "最新版本",
     status: "状态",
     updateAvailable: "版本 {version} 可用",
-    updateAvailableDesc: "Open Notebook 的新版本可用。",
     upToDate: "已是最新",
     unknown: "未知",
     viewOnGithub: "在 GitHub 上查看",

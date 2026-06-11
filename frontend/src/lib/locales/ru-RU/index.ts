@@ -755,7 +755,6 @@ export const ruRU = {
     latestVersion: "Последняя версия",
     status: "Статус",
     updateAvailable: "Доступна версия {version}",
-    updateAvailableDesc: "Доступна новая версия Open Notebook.",
     upToDate: "Актуальная версия",
     unknown: "Неизвестно",
     viewOnGithub: "Посмотреть на GitHub",
