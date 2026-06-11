@@ -756,7 +756,6 @@ export const esES = {
     latestVersion: "Última versión",
     status: "Estado",
     updateAvailable: "Versión {version} disponible",
-    updateAvailableDesc: "Una nueva versión de Open Notebook está disponible.",
     upToDate: "Actualizado",
     unknown: "Desconocido",
     viewOnGithub: "Ver en GitHub",

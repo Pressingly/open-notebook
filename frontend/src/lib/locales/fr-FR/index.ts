@@ -755,7 +755,6 @@ export const frFR = {
     latestVersion: "Dernière version",
     status: "État",
     updateAvailable: "Version {version} disponible",
-    updateAvailableDesc: "Une nouvelle version de Open Notebook est disponible.",
     upToDate: "À jour",
     unknown: "Inconnu",
     viewOnGithub: "Voir sur GitHub",

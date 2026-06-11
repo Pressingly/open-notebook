@@ -755,7 +755,6 @@ export const jaJP = {
     latestVersion: "最新バージョン",
     status: "ステータス",
     updateAvailable: "バージョン{version}が利用可能",
-    updateAvailableDesc: "Open Notebookの新しいバージョンが利用可能です。",
     upToDate: "最新版です",
     unknown: "不明",
     viewOnGithub: "GitHubで表示",

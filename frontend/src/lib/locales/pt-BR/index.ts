@@ -755,7 +755,6 @@ export const ptBR = {
     latestVersion: "Última Versão",
     status: "Status",
     updateAvailable: "Versão {version} Disponível",
-    updateAvailableDesc: "Uma nova versão do Open Notebook está disponível.",
     upToDate: "Atualizado",
     unknown: "Desconhecido",
     viewOnGithub: "Ver no GitHub",
