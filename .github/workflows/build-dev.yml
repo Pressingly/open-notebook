@@ -1,15 +1,6 @@
 name: Development Build
 
 on:
-  pull_request:
-    branches: [ main ]
-  push:
-    branches: [ main ]
-    paths-ignore:
-      - '**.md'
-      - 'docs/**'
-      - 'notebooks/**'
-      - '.github/workflows/claude*.yml'
   workflow_dispatch:
     inputs:
       platform:
